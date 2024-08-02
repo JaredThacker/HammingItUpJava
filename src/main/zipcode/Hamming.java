@@ -13,10 +13,6 @@ public class Hamming {
         int i = 0;
         int count = 0;
 
-        if(s.length() != s1.length()){
-            throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
-        }
-
         while (i < s.length()){
             if (s.charAt(i) != s1.charAt(i)){
                 count++;
